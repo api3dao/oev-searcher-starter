@@ -10,16 +10,12 @@
     "deposit-collateral": "hardhat run scripts/deposit-collateral.js",
     "submit-bid-update": "hardhat run scripts/submit-bid-update.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "@api3/contracts": "^4.1.1",
     "@api3/dapi-management": "^1.49.0",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "command-line-args": "^5.2.1",
     "ethers": "^6.13.1",
     "hardhat": "^2.22.5",
-    "minimist": "^1.2.8"
-  },
-  "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
     "@nomicfoundation/hardhat-ethers": "^3.0.0",
     "@nomicfoundation/hardhat-ignition": "^0.15.5",
